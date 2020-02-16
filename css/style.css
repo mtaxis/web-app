@@ -1,5 +1,9 @@
 .navbar.bg-primary {
-    background-color: rgba(4, 204, 194, 0.92) !important;
+    background-color: #f7e018 !important;
+}
+
+.nav-link i {
+    font-size: 35px;
 }
 
 .card.card-body {
@@ -8,6 +12,7 @@
     border-radius: 0;
     background: #fff;
     padding: .2rem;
+    cursor: pointer;
 }
 
 .navbar-nav {
