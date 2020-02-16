@@ -26,9 +26,9 @@ const outputHtml = matches => {
         const html = matches
             .map(
                 match => `
-                <div class="card card-body mb-1">
+                <div class="card card-body mb-0">
                     <div class="avatar-card">
-                        <img src="img/avatar.png" alt="Agenda Dt3 Sports" width="80">                    
+                        <img src="img/avatar.png" alt="Agenda Dt3 Sports">                    
                     </div>
                     <div class="info-card">
                         <h4>${match.name}</h4>

@@ -1,18 +1,73 @@
-.card.card-body.mb-1 {
+.navbar.bg-primary {
+    background-color: rgba(4, 204, 194, 0.92) !important;
+}
+
+.card.card-body {
     display: table;
     width: 100%;
+    border-radius: 0;
+    background: #fff;
+    padding: .2rem;
+}
+
+.navbar-nav {
+    margin-right: 0!important;
+    margin-left: auto;
+}
+
+.navbar-brand {
+    margin-left: 1.5rem;
 }
 
 .avatar-card {
     display: inline-table;
+    margin-left: 0.5vw;
+    background: #dfdfdf;
+    border-radius: 50px;
 }
 
 .info-card {
     display: inline-table;
-    vertical-align: top;
+    vertical-align: middle;
+    margin-left: 1vw;
+    padding: 5px;
+    padding-left: 0px;
+}
+
+.avatar-card img {
+    width: 50px;
+    padding: 7px;
+}
+
+.info-card h4 {
+    font-size: 18px;
+    margin-bottom: 0px;
+    color: #000;
+}
+
+.info-card .text-primary {
+    font-size: 12px;
+    color: #a0afae!important;
+}
+
+/* .sub-title {
+    font-size: 38px;
+} */
+
+#match-list {
+    position: absolute;
+    z-index: 999;
+    left: 174px;
+    top: 60px;
+    width: 250px;
+    border-radius: 0!important;
+}
+
+.form-inline {
     margin-left: 2vw;
 }
 
-.sub-title {
-    font-size: 38px;
+.form-inline #search {
+    width: 250px;
+    height: 50px;
 }
