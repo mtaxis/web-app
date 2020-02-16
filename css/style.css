@@ -1,0 +1,18 @@
+.card.card-body.mb-1 {
+    display: table;
+    width: 100%;
+}
+
+.avatar-card {
+    display: inline-table;
+}
+
+.info-card {
+    display: inline-table;
+    vertical-align: top;
+    margin-left: 2vw;
+}
+
+.sub-title {
+    font-size: 38px;
+}
